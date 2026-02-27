@@ -3,10 +3,11 @@
 ## **👨‍💻 The Team: Team Rocket**
 * **Team Lead**: Shakti Swaroop Sahoo
 * **Team Members**: 
+    * Ankita Majhi
     * Rajiv Pradhan
     * Atmananda Behera
     * Nilanchala Mahanty
-    * Ankita Majhi
+    
   
 **Mini-FaaS** is an asynchronous, polyglot Function-as-a-Service (FaaS) platform built for high-performance code execution in isolated environments. Developed as a 6th-semester CSE skill project at **Indira Gandhi Institute of Technology (IGIT), Sarang**, this system allows users to deploy and execute code snippets in **Python, C, C++, and Java**.
 
