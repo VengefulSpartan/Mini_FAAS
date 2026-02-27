@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: minifaas_db
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: minifaas
+    ports:
+      - "3307:3306"
+
+  redis:
+    image: redis:alpine
+    container_name: minifaas_queue
+    ports:
+      - "6379:6379"
