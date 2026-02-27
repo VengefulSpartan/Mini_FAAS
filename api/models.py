@@ -1,12 +1,12 @@
 from sqlalchemy import Column, String, Text
-from api.database import Base
+from .database import Base
 
 class Job(Base):
     __tablename__ = "jobs"
 
-    # Added (36) for the UUID and (50) for the status!
     id = Column(String(36), primary_key=True, index=True)
-    status = Column(String(50), default="QUEUED")
     code = Column(Text, nullable=False)
+    language = Column(String(20), default="python") # Add this!
+    status = Column(String(20), nullable=False)
     output = Column(Text, nullable=True)
     error = Column(Text, nullable=True)

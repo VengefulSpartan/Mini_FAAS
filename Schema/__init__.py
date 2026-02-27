@@ -1,1 +1,7 @@
-from .job import JobStatusEnum, JobSubmitRequest, JobSubmitResponse,JobResult
+from .job import (
+    JobStatusEnum,
+    LanguageEnum,
+    JobSubmitRequest,
+    JobSubmitResponse,
+    JobStatusResponse
+)
